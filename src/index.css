@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px; 
+}
+
+h1{
+  display: flex;
+  justify-content: flex-end
+
+}
+
+.card{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 10px;
+  border: 1px solid green;
+  border-radius: 6px;
+}
+.card > p:first-of-type{
+  	text-align: center;
+    font-size: 25px;
+}
+
+.date{
+  display: flex;
+  gap: 10px;
+}
+
+.blue{
+  background-color: #3cc5ca;
+}
+
+.red{
+  background-color: red;
+}
+
+.gold{
+  background-color: gold;
+}
+
+.green{
+  background-color: green;
+} */
+
+/*---------------------- linkedin------------------ */
+/* 
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+.card{
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 25px;
+  background-color: rgb(16, 86, 148);
+  color: white;
+} */
+
+
+body{
+  background-color: rgb(224, 219, 219);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+  font-size: 20;
+  gap: 40px;
+}
+
+.card{
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  border: 2px solid red;
+  border-radius: 6px;
+  gap: 10px;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(207, 238, 238);
+}
+
+.col{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2px;  
+  
+}
+
+.btnList{
+  width: 100px;
+  display: flex;  
+  padding: 40px; 
+  border: none; 
+}
+
+.green{
+  background-color: green;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.red{
+  background-color: red;
+}
+
+.container_graphics{display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.graphics{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;    
+  gap: 10px;
+  padding: 20px;  
+  border-radius: 6px;
+}
+
+
+.country{
+  display: flex;
+  justify-content: space-between;
+  align-self: auto;
+  gap: 10px;  
+}
+
+.percentage{
+  background-color: rgb(247, 160, 21);
+  
+}
+  
+
